@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<html>
-  
+<html lang="en" >
 <head>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>CodePen - Flappy Bird Javascript</title>
+  <link rel="stylesheet" href="./style.css">
+
 </head>
-  
 <body>
-    <div class="background"></div>
-    <img class="bird" src="logo.png" alt="bird-img">
-    <div class="message">
-        Press Enter To Start Game
+<!-- partial:index.partial.html -->
+<header>
+    <h1>Floppy Bird</h1>
+    <div class="score-container">
+      <div id="bestScore"></div>
+      <div id="currentScore"></div>
     </div>
-    <div class="score">
-        <span class="score_title"></span>
-        <span class="score_val"></span>
-    </div>
-    <script src="gfg.js"></script>
+  </header>
+
+  <canvas id="canvas" width="431" height="768"></canvas>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
 </body>
-  
 </html>
